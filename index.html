@@ -1,1 +1,158 @@
-Welcome to CI CD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Static Website</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#333;
+      line-height:1.6;
+    }
+
+    header{
+      background:#0077cc;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    nav{
+      background:#005fa3;
+      padding:10px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    nav a:hover{
+      color:yellow;
+    }
+
+    .hero{
+      height:300px;
+      background:linear-gradient(to right, #0077cc, #00b4d8);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:48px;
+    }
+
+    .container{
+      padding:40px 20px;
+      max-width:1000px;
+      margin:auto;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      margin-top:20px;
+    }
+
+    .card{
+      background:white;
+      padding:20px;
+      border-radius:10px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    footer{
+      background:#222;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:30px;
+    }
+
+    button{
+      background:#0077cc;
+      color:white;
+      border:none;
+      padding:10px 20px;
+      margin-top:15px;
+      border-radius:5px;
+      cursor:pointer;
+    }
+
+    button:hover{
+      background:#005fa3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>My Static Website</h1>
+    <p>Simple HTML & CSS Website</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Welcome!</h1>
+      <p>Create beautiful websites using HTML and CSS.</p>
+      <button>Learn More</button>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Our Features</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Fast</h3>
+        <p>Static websites load quickly and perform efficiently.</p>
+      </div>
+
+      <div class="card">
+        <h3>Responsive</h3>
+        <p>Works smoothly on desktop, tablet, and mobile devices.</p>
+      </div>
+
+      <div class="card">
+        <h3>Easy to Build</h3>
+        <p>Simple structure using only HTML and CSS.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 My Static Website | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
